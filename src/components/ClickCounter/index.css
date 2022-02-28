@@ -1,0 +1,56 @@
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f1fbf8;
+  height: 100vh;
+}
+
+.counter-heading {
+  color: #2d3a35;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 800;
+}
+
+@media screen and (min-width: 768px) {
+  .counter-heading {
+    font-size: 48px;
+  }
+}
+
+.counter-value {
+  color: #c20a72;
+  font-weight: 900;
+}
+
+.description {
+  font-size: 18px;
+  font-family: 'Roboto';
+  text-align: center;
+  color: #2d3a35;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 21px;
+  }
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button {
+  border-radius: 4px;
+  border: none;
+  background-color: #007bff;
+  color: #ffffff;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  cursor: pointer;
+  outline: none;
+}
